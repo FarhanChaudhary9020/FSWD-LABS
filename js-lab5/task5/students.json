@@ -1,0 +1,18 @@
+[
+  {
+    "id": 101,
+    "name": "Ali",
+    "courses": [
+      { "code": "CS301", "marks": 81 },
+      { "code": "CS302", "marks": 74 }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Sara",
+    "courses": [
+      { "code": "CS301", "marks": 92 },
+      { "code": "CS302", "marks": 88 }
+    ]
+  }
+]
