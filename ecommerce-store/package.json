@@ -1,0 +1,14 @@
+{
+  "name": "morrow-supply-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Morrow Supply storefront with a persistent native Node.js API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Thoughtful everyday objects for slower mornings and better evenings.">
+    <title>Morrow Supply | Objects for everyday living</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="announcement-bar text-center">
+        Complimentary delivery on orders over $75 <span aria-hidden="true">·</span> Thoughtfully packed, always
+    </div>
+
+    <header class="store-header sticky-top">
+        <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+            <div class="container-xl nav-inner">
+                <a class="navbar-brand brand-mark" href="#top" aria-label="Morrow Supply home">morrow<span>.</span></a>
+                <div class="main-links">
+                    <a href="#shop">Shop</a>
+                    <a href="#story">Our story</a>
+                    <a href="#reviews">Reviews</a>
+                </div>
+                <div class="nav-actions">
+                    <a class="account-link" href="#account">Sign in</a>
+                    <a class="bag-link" href="#bag"><span aria-hidden="true">◇</span> Bag <span id="bag-count">0</span></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero-section">
+            <div class="container-xl hero-inner">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="eyebrow-dot"></span> Considered things, made to stay</p>
+                    <h1>Make room for<br><em>the everyday.</em></h1>
+                    <p class="hero-description">Useful, tactile pieces for the rituals that make a place feel like yours. Made with care, chosen to last.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-dark hero-button" href="#shop">Shop the collection <span aria-hidden="true">↗</span></a>
+                        <a class="quiet-link" href="#story">A little about us <span aria-hidden="true">↓</span></a>
+                    </div>
+                    <div class="hero-proof"><span class="proof-stars" aria-label="5 out of 5 stars">★★★★★</span><span>Loved in 1,200+ homes</span></div>
+                </div>
+                <div class="hero-image-wrap">
+                    <img class="hero-image" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=88" alt="Sunlit living room with carefully chosen furniture and home objects">
+                    <div class="image-caption"><span>THE SLOW LIVING EDIT</span><span>01 / 04</span></div>
+                    <span class="hero-stamp" aria-hidden="true">Made for<br>your every day</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="value-strip" aria-label="Store benefits">
+            <div class="container-xl value-inner">
+                <p><span aria-hidden="true">✳</span> Small-batch makers</p>
+                <p><span aria-hidden="true">↺</span> Easy 30-day returns</p>
+                <p><span aria-hidden="true">♧</span> Lower-impact materials</p>
+                <p><span aria-hidden="true">♡</span> Packed with care</p>
+            </div>
+        </section>
+
+        <section class="shop-section section-space" id="shop">
+            <div class="container-xl">
+                <div class="section-heading shop-heading">
+                    <div><p class="eyebrow">The first collection</p><h2>Good things,<br><em>well considered.</em></h2></div>
+                    <p>Pieces with a purpose and a point of view. Start with the ones you'll reach for every day.</p>
+                </div>
+                <div class="category-nav" aria-label="Shop categories">
+                    <a class="category-active" data-category="" href="#shop">All objects <span id="product-count">04</span></a>
+                    <a data-category="Tableware" href="#shop">Tableware</a>
+                    <a data-category="Lighting" href="#shop">Lighting</a>
+                    <a data-category="Textiles" href="#shop">Textiles</a>
+                    <a data-category="Decor" href="#shop">Decor</a>
+                </div>
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 product-grid" id="product-grid" aria-live="polite">
+                    <p class="api-status">Loading the collection…</p>
+                </div>
+                <div class="shop-footnote"><span>Designed to be used. Made to be kept.</span><a class="quiet-link" href="#bag">Review your bag <span aria-hidden="true">↓</span></a></div>
+            </div>
+        </section>
+
+        <section class="story-section" id="story">
+            <div class="container-xl story-inner">
+                <div class="story-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85" alt="A thoughtful home interior in natural light" loading="lazy">
+                    <span class="story-image-note">Objects with a little more meaning.</span>
+                </div>
+                <div class="story-copy">
+                    <p class="eyebrow">A slower kind of good</p>
+                    <h2>Less, but<br><em>more meaningful.</em></h2>
+                    <p>Morrow began with a simple thought: the things we use every day deserve the same care as the moments we save for later. We work with independent makers to find useful objects with honest materials and lasting forms.</p>
+                    <a class="quiet-link" href="#reviews">Meet the community <span aria-hidden="true">↗</span></a>
+                    <div class="maker-signoff"><span>Made in small batches</span><span aria-hidden="true">m.</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="review-section section-space" id="reviews">
+            <div class="container-xl">
+                <div class="section-heading review-heading"><div><p class="eyebrow">Notes from home</p><h2>Good words from<br><em>good people.</em></h2></div><div class="overall-rating"><strong>4.9</strong><span>★★★★★<small>From 178 verified reviews</small></span></div></div>
+                <div class="row row-cols-1 row-cols-md-3 g-3 review-grid">
+                    <article class="col"><div class="review-card"><div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>“The cup has become part of my morning. You can feel the care in it.”</blockquote><div class="review-author"><span class="review-avatar avatar-sage">AM</span><span><strong>Amelia M.</strong><small>Verified customer · Still Form Cup</small></span><span class="verified-mark" aria-label="Verified purchase">✓</span></div></div></article>
+                    <article class="col"><div class="review-card"><div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>“Beautifully made, thoughtfully wrapped, and even better in person.”</blockquote><div class="review-author"><span class="review-avatar avatar-coral">JR</span><span><strong>Jules R.</strong><small>Verified customer · Quiet Shape Vase</small></span><span class="verified-mark" aria-label="Verified purchase">✓</span></div></div></article>
+                    <article class="col"><div class="review-card"><div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>“Finally found a lamp that makes the whole room feel softer.”</blockquote><div class="review-author"><span class="review-avatar avatar-blue">SK</span><span><strong>Sam K.</strong><small>Verified customer · Evening Glow Lamp</small></span><span class="verified-mark" aria-label="Verified purchase">✓</span></div></div></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="bag-section section-space" id="bag">
+            <div class="container-xl bag-layout">
+                <div class="bag-main">
+                    <div class="section-heading bag-heading"><div><p class="eyebrow">Your selection</p><h2>Your bag<span class="heading-period">.</span></h2></div><a class="quiet-link" href="#shop">Continue shopping <span aria-hidden="true">↗</span></a></div>
+                    <p class="empty-cart" id="empty-cart">Your bag is waiting for something lovely. <a href="#shop">Explore the collection →</a></p>
+                    <div class="cart-lines" id="cart-lines" aria-label="Selected products"></div>
+                </div>
+                <aside class="bag-summary"><p class="eyebrow">Next up</p><h3>Make it yours.</h3><p>Your bag is saved between visits.</p><div class="checkout-total"><span>Subtotal</span><strong id="cart-subtotal">$0.00</strong></div><div class="checkout-total"><span>Shipping</span><strong id="cart-shipping">—</strong></div><a class="btn btn-dark checkout-button" href="#checkout">Continue to checkout <span aria-hidden="true">→</span></a><div class="summary-perks"><span>Secure checkout</span><span>Free delivery over $75</span><span>30-day easy returns</span></div></aside>
+            </div>
+        </section>
+
+        <section class="checkout-section section-space" id="checkout">
+            <div class="container-xl checkout-layout">
+                <div class="checkout-intro"><p class="eyebrow">Nearly there</p><h2>A good choice,<br><em>on its way.</em></h2><p>Enter your delivery details and choose how you'd like to pay.</p><div class="checkout-steps"><span class="step-active"><b>01</b> Delivery</span><i></i><span><b>02</b> Payment</span><i></i><span><b>03</b> Review</span></div></div>
+                <div class="checkout-form" role="group" aria-label="Delivery and payment details">
+                    <div class="form-section-title"><span>01</span><h3>Delivery details</h3></div>
+                    <div class="row g-3">
+                        <div class="col-sm-6"><label class="form-label" for="first-name">First name</label><input class="form-control" id="first-name" name="first-name" autocomplete="given-name" required></div>
+                        <div class="col-sm-6"><label class="form-label" for="last-name">Last name</label><input class="form-control" id="last-name" name="last-name" autocomplete="family-name" required></div>
+                        <div class="col-12"><label class="form-label" for="email">Email address</label><input class="form-control" id="email" name="email" type="email" autocomplete="email" required></div>
+                        <div class="col-12"><label class="form-label" for="address">Street address</label><input class="form-control" id="address" name="address" autocomplete="street-address" required></div>
+                        <div class="col-sm-7"><label class="form-label" for="city">City</label><input class="form-control" id="city" name="city" autocomplete="address-level2" required></div>
+                        <div class="col-sm-5"><label class="form-label" for="postal-code">Postal code</label><input class="form-control" id="postal-code" name="postal-code" autocomplete="postal-code" required></div>
+                        <div class="col-12"><label class="form-label" for="payment">Payment method</label><select class="form-select" id="payment" name="payment"><option>Credit or debit card</option><option>PayPal</option><option>Pay on delivery</option></select></div>
+                    </div>
+                    <div class="checkout-total"><span>Order total</span><strong id="checkout-total">$0.00</strong></div>
+                    <button class="btn btn-dark place-order-button" id="place-order" type="button">Place your order <span aria-hidden="true">→</span></button>
+                    <p class="demo-note" id="checkout-status" aria-live="polite">Demo only: no payment is processed.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="account-section section-space" id="account">
+            <div class="container-xl">
+                <div class="section-heading account-heading"><div><p class="eyebrow">A familiar place to return</p><h2>Your Morrow<br><em>account.</em></h2></div><p>Keep your details close and your favourites even closer.</p></div>
+                <div class="row g-4 account-grid">
+                    <div class="col-lg-6" id="login"><div class="account-form" role="group" aria-label="Log in"><div class="form-section-title"><span>01</span><h3>Welcome back</h3></div><label class="form-label" for="login-email">Email address</label><input class="form-control" id="login-email" name="login-email" type="email" autocomplete="email" required><label class="form-label mt-3" for="login-password">Password</label><input class="form-control" id="login-password" name="login-password" type="password" autocomplete="current-password" required><button class="btn btn-dark account-button" type="button" disabled>Sign-in service required <span aria-hidden="true">→</span></button></div></div>
+                    <div class="col-lg-6" id="signup"><div class="account-form signup-form" role="group" aria-label="Create account"><div class="form-section-title"><span>02</span><h3>Make yourself at home</h3></div><label class="form-label" for="signup-name">Your name</label><input class="form-control" id="signup-name" name="signup-name" autocomplete="name" required><label class="form-label mt-3" for="signup-email">Email address</label><input class="form-control" id="signup-email" name="signup-email" type="email" autocomplete="email" required><label class="form-label mt-3" for="signup-password">Create a password</label><input class="form-control" id="signup-password" name="signup-password" type="password" autocomplete="new-password" minlength="8" required><button class="btn btn-dark account-button" type="button" disabled>Account service required <span aria-hidden="true">→</span></button></div></div>
+                </div>
+                <p class="demo-note account-note">Account preview only. This static page cannot create accounts or sign you in; that requires a server.</p>
+            </div>
+        </section>
+
+        <section class="newsletter-band">
+            <div class="container-xl newsletter-inner"><div><p class="eyebrow">A thoughtful note, now and then</p><h2>Good things in your inbox.</h2></div><div class="newsletter-form" role="group" aria-label="Newsletter signup"><label class="visually-hidden" for="newsletter-email">Email address</label><input class="form-control" id="newsletter-email" type="email" placeholder="Your email address"><button class="btn btn-dark" type="button">Sign me up <span aria-hidden="true">→</span></button></div></div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="newsletter">
+        <div class="container-xl footer-main"><div class="footer-brand"><a class="brand-mark" href="#top">morrow<span>.</span></a><p>Useful things. Thoughtfully found.<br>Made for the everyday.</p></div><div class="footer-links"><div><strong>Explore</strong><a href="#shop">Shop all</a><a href="#story">Our story</a><a href="#reviews">Reviews</a></div><div><strong>Help</strong><a href="#bag">Your bag</a><a href="#checkout">Checkout</a><a href="#account">Your account</a></div><div><strong>Say hello</strong><a href="mailto:hello@morrowsupply.example">Email us</a><span>Monday–Friday, 9–5</span></div></div></div>
+        <div class="container-xl footer-bottom"><span>© 2026 Morrow Supply</span><span>Made with care, for everyday living.</span><a href="#top">Back to top ↑</a></div>
+    </footer>
+    <script src="store.js" defer></script>
+</body>
+</html>
